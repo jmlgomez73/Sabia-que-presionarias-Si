@@ -1,0 +1,41 @@
+html,
+body {
+    margin          : 0;
+    padding         : 0;
+    font-family     : Arial, Helvetica, sans-serif;
+    background-color: #F12688;
+}
+
+.container {
+    display        : flex;
+    position       : absolute;
+    width          : 100%;
+    height         : 100%;
+    flex-flow      : column nowrap;
+    align-items    : center;
+    justify-content: center;
+}
+
+.container .title {
+    font-size: 35px;
+    color    : white;
+}
+
+.container .buttons {
+    margin-top : 50px;
+    margin-left: -130px;
+}
+
+.container .buttons .btn {
+    position        : absolute;
+    padding         : 10px 20px;
+    font-size       : 18px;
+    background-color: #7f0000;
+    color           : white;
+    border          : none;
+    border-radius   : 3px;
+}
+
+.container .buttons>#btnno {
+    margin-left: 70px;
+}
